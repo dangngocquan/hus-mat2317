@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Hus_Java_MAT2317.iml" filepath="$PROJECT_DIR$/.idea/Hus_Java_MAT2317.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HusMAT2317.iml" filepath="$PROJECT_DIR$/HusMAT2317.iml" />
     </modules>
   </component>
 </project>
