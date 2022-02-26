@@ -1,2 +1,2 @@
-module Hus_Java_MAT2317 {
+module HUSMAT2317 {
 }
