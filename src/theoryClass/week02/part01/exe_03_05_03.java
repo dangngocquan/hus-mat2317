@@ -1,4 +1,4 @@
-package theoryClass.week02;
+package theoryClass.week02.part01;
 
 public class exe_03_05_03 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package theoryClass.week02;
+package theoryClass.week02.part01;
 
 public class DevideByZero {
 	public static void main(String[] args) {

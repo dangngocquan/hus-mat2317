@@ -1,6 +1,6 @@
-package theoryClass.week02;
+package theoryClass.week02.part01;
 
-public class exe_03_05_02 {
+public class Ordered {
 	public static void main(String[] args) {
 		long x = Long.parseLong(args[0]);
 		long y = Long.parseLong(args[1]);

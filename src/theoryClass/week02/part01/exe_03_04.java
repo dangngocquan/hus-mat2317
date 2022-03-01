@@ -1,4 +1,4 @@
-package theoryClass.week02;
+package theoryClass.week02.part01;
 
 import java.util.Scanner;
 
