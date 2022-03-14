@@ -6,7 +6,9 @@ import java.util.Scanner;
 //Exercise 1.7
 public class PrimesFinder {
 	static int getNumberOfPrimesLessThanOrEqual(int number) {
-		if (number <= 1) return 0;
+		if (number <= 1) {
+			return 0;
+		}
 		int counter = 0;
 		boolean[] isPrime = new boolean[number+1];
 		Arrays.fill(isPrime, true);

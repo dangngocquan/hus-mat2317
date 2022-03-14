@@ -23,6 +23,5 @@ public class NumberPrinter {
 				System.out.print(i + " ");
 			}
 		}
-		
 	}
 }

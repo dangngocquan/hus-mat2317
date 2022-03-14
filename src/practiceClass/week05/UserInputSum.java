@@ -11,7 +11,9 @@ public class UserInputSum {
 		do {
 			System.out.print("Enter a number: ");
 			number = scanner.nextDouble();
-			if (number >= 0) sum += number;
+			if (number >= 0) {
+				sum += number;
+			}
 		} while (number >= 0);
 		scanner.close();
 		System.out.println("Sum = " + sum);

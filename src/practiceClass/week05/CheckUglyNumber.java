@@ -5,7 +5,9 @@ import java.util.Scanner;
 //Exercise 1.13
 public class CheckUglyNumber {
 	static boolean isUglyNumber(int n) {
-		if (n <= 0) return false;
+		if (n <= 0) {
+			return false;
+		}
 		while (n != 1) {
 			if (n % 5 == 0) {
 				n /= 5;
