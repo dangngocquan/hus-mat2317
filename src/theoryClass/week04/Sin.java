@@ -3,8 +3,9 @@ package theoryClass.week04;
 import java.util.Scanner;
 
 //Exercise 1, sin(x)
+
 /**
- * The <b>Sin</b> is the class that help to calculator the value of sin(x), x is the input value.
+ * The <b>Sin</b> is the class that help to calculate the value of sin(x), x is the input value.
  * 
  * @author <b>BrisS</b>
  * @version 1.0
