@@ -19,10 +19,10 @@ public class PrimeNumber {
 	 * This function is to check if the number n is a prime number or not.
 	 * 
 	 * @param n The number that you want to check.
-	 * @return Return true if n is a prime number, and otherwise, return false if n isn't a prime number.
+	 * @return boolean Return true if n is a prime number, and otherwise, return false if n isn't a prime number.
 	 * 
 	 */
-	static boolean isPrime(long n) {
+	public static boolean isPrime(long n) {
 		if (n <= 1) {
 			return false;
 		}

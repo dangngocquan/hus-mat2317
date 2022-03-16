@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"theoryClass.week04","c":"PrimeNumber","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"theoryClass.week04","c":"PrimeNumber","l":"PrimeNumber()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"theoryClass.week04","c":"PrimeNumber","l":"isPrime(long)"},{"p":"theoryClass.week04","c":"PrimeNumber","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"theoryClass.week04","c":"PrimeNumber","l":"PrimeNumber()","u":"%3Cinit%3E()"}];updateSearchResults();

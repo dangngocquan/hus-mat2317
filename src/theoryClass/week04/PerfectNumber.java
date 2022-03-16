@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 
- * The <b>PerfectNumber</b> class is use to check if the number n is a perfect number or not.
+ * The PerfectNumber class is use to check if the number n is a perfect number or not.
  * 
  * @author <b>BrisS</b>
  * @version 1.0
@@ -18,11 +18,11 @@ public class PerfectNumber {
 	 * 
 	 * This function is to check if the number n is a perfect number or not.
 	 * 
-	 * @param n - The number that you want to check.
-	 * @return - Return true if n is a perfect number, and otherwise, return false if it isn't a perfect number.
+	 * @param n The number that you want to check.
+	 * @return boolean Return true if n is a perfect number, and otherwise, return false if it isn't a perfect number.
 	 * 
 	 */
-	static boolean isPerfectNumber(long n) {
+	public static boolean isPerfectNumber(long n) {
 		if (n < 0) {
 			return false;
 		}

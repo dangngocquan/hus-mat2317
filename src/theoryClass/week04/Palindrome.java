@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 
- * The <b>Palindrome</b> class is the class that help to check if a number n is a palindrome number or not, n is the input value
+ * The Palindrome class is the class that help to check if a number n is a palindrome number or not, n is the input value
  * 
  * @author <b>BrisS</b>
  * @version 1.0
@@ -19,10 +19,10 @@ public class Palindrome {
 	 * This function is to check if a number is a palindrome number or not.
 	 * 
 	 * @param n The number that you want to check if it is a palindrome number or not.
-	 * @return Return true if n is a palindrome, and otherwise, return false if n is not a palindrome number.
+	 * @return boolean Return true if n is a palindrome, and otherwise, return false if n is not a palindrome number.
 	 * 
 	 */
-	static boolean isPalindromeNumber(String n) {
+	public static boolean isPalindromeNumber(String n) {
 		int size = n.length();
 		for (int i = 0; i <= size/2; i++) {
 			if (n.charAt(i) != n.charAt(size - 1 - i)) {
