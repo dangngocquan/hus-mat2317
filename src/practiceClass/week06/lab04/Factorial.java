@@ -4,6 +4,9 @@ package practiceClass.week06.lab04;
 
 /**
  * 
+ * You can see a more visible version at the 
+ * <a href = "https://github.com/dangngocquann/Java_HUSMAT2317_WithEclipse/tree/master/src/practiceClass/week06/lab04"> link </a>.
+ * 
  * This class is used to calculate the factorial of a number n. 
  * However, this program has a logical error and produce a wrong answer for n = 20.
  * So, this class is used to test Debugging features.

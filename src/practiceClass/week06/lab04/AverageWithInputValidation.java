@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 /**
  * 
+ * You can see a more visible version at the 
+ * <a href = "https://github.com/dangngocquann/Java_HUSMAT2317_WithEclipse/tree/master/src/practiceClass/week06/lab04"> link </a>.
+ * 
  * This program prompts user for mark (between 0-100 in int) of 3 students,
  * computes the average (in double) and prints the result rounded to 2 decimal places.
  * 
