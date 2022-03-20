@@ -1,1 +1,1 @@
-memberSearchIndex = [{"p":"practiceClass.week05","c":"UserInputSum","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"practiceClass.week05","c":"UserInputSum","l":"UserInputSum()","u":"%3Cinit%3E()"}];updateSearchResults();
+memberSearchIndex = [{"p":"practiceClass.week06","c":"TribonacciInt","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"practiceClass.week06","c":"TribonacciInt","l":"TribonacciInt()","u":"%3Cinit%3E()"}];updateSearchResults();
