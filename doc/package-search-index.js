@@ -1,1 +1,1 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"HUSMAT2317","l":"practiceClass.week06.homework04"}];updateSearchResults();
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"HUSMAT2317","l":"theoryClass.week0506.homework"}];updateSearchResults();
