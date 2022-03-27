@@ -48,6 +48,7 @@ public class CheckNatureOfArray {
 			if (array[i] < tempElement) {
 				return false;
 			}
+			tempElement = array[i];
 		}
 		return true;
 	}
