@@ -1,4 +1,4 @@
-package theoryClass.week0506.test;
+package theoryClass.week0506.tests;
 
 public class Fibonacci {
 	public static int fibonacci(int k) {

@@ -1,4 +1,4 @@
-package theoryClass.week0506.test;
+package theoryClass.week0506.tests;
 
 public class BinaryString {
 	public static String getBinaryString1(int n) {
