@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"theoryClass.week0506.homework","l":"CheckSudoku"}];updateSearchResults();
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"theoryClass.week07.homework","l":"PageRank"}];updateSearchResults();
