@@ -178,14 +178,58 @@ public class Array1D {
 		return newArray;
 	}
 	
-//	public static int[] deleteElement()
+	/**
+	 * Delete an element.
+	 * @param array .
+	 * @param position .
+	 * @return .
+	 */
+	public static int[] deleteElement(int[] array, int position) {
+		int[] newArray = new int[array.length - 1];
+		for (int i = 0; i < position; i++) {
+			newArray[i] = array[i];
+		}
+		for (int i = position + 1; i < array.length; i++) {
+			newArray[i-1] = array[i];
+		}
+		return newArray;
+	}
+	
+	/**
+	 * count frequency of each element in array.
+	 * @param array
+	 * @param value
+	 * @return
+	 */
+	public static int countFrequency(int[] array, int value) {
+		int count = 0;
+		for (int element: array) {
+			if (element == value) {
+				count++;
+			}
+		}
+		return count;
+	}
+	
+	/**
+	 * Reverse array.
+	 * @param array .
+	 * @return .
+	 */
+	public static int[] getReverseArray(int[] array) {
+		int[] reverseArr = new int[array.length];
+		for (int i = 0; i < array.length; i++) {
+			reverseArr[i] = array[array.length-1-i];
+		}
+		return reverseArr;
+	}
 	
 	/**
 	 * The main method.
 	 * @param args Unused.
 	 */
 	public static void main(String[] args) {
-		int length = 20;
+		int length = 10;
 		int[] array = new int[length];
 		input(array);
 		
@@ -215,6 +259,26 @@ public class Array1D {
 		System.out.printf("Array after insert an element %d at index %d: ", valueInsert, positionInsert);
 		printElementsOfArray(newArray);
 		
+		int positionDelete = 0;
+		newArray = deleteElement(newArray, positionDelete);
+		System.out.printf("Array after delete an element at index %d: ", positionDelete);
+		printElementsOfArray(newArray);
+		System.out.println();
 		
+		System.out.printf("%-15s", "Elements:");
+		for (int element: array) {
+			System.out.printf("%5d", element);
+		}
+		System.out.println();
+		System.out.printf("%-15s", "Count:");
+		for (int element: array) {
+			System.out.printf("%5d", countFrequency(array, element));
+		}
+		System.out.println();
+		System.out.println();
+		
+		int[] reverseArray = getReverseArray(array);
+		System.out.print("Reverse array: ");
+		printElementsOfArray(reverseArray);
 	}
 }
